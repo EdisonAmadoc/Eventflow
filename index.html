@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventFlow</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="image_fx.jpg" alt="EventFlow Logo" >
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#"><i class="icon inicio"></i> Inicio</a></li>
+                <li><a href="#"><i class="icon chat"></i> Chat</a></li>
+                <li><a href="#"><i class="icon calendario"></i> Calendario</a></li>
+                <li><a href="#"><i class="icon social"></i> Social</a></li>
+            </ul>
+        </nav>
+        <button class="logout">Cerrar sesión</button>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Bienvenido a EventFlow!</h1>
+            <p>Planifica y organiza tus eventos en colaboración.</p>
+            <div class="user-profile">A</div>
+        </header>
+        <div class="dashboard">
+            <button class="create-event">+ Crear Evento</button>
+            <div class="ideas-board">
+                <h2>Tabla de Ideas</h2>
+                <div class="tabs">
+                    <button class="tab active">Catering</button>
+                    <button class="tab">Música</button>
+                    <button class="tab">Regalos</button>
+                </div>
+                <div class="ideas-content">
+                    </div>
+            </div>
+            <div class="task-list">
+                <h2>Lista de Tareas</h2>
+                <ul>
+                    <li><i class="icon check"></i> Reservar lugar</li>
+                    <li><i class="icon check"></i> Invitar a invitados</li>
+                    <li><i class="icon check"></i> Configurar recordatorios</li>
+                    <li><i class="icon check"></i> Preparar horario</li>
+                </ul>
+            </div>
+            <div class="calendar-summary left">
+                <h2>Calendario</h2>
+                <div class="month-selector">
+                    <span>Abr</span>
+                    <span>May</span>
+                </div>
+                <div class="costs">
+                    <p>GASTOS <span class="amount">$1.200,00</span></p>
+                    <p>CONTRIBUCIONES <span class="amount">$400,00</span></p>
+                </div>
+            </div>
+            <div class="calendar-widget">
+                <h2>Calendario</h2>
+                <p class="total-gastos">Gastos <span class="amount">$800,00</span></p>
+                <p class="total-ingresos">Ingresos <span class="amount">$1.200,00</span></p>
+                <p class="total-contribuciones">Contribuciones <span class="amount">$400,00</span></p>
+                <div class="mini-calendar">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>L</th>
+                                <th>M</th>
+                                <th>X</th>
+                                <th>J</th>
+                                <th>V</th>
+                                <th>S</th>
+                                <th>D</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
